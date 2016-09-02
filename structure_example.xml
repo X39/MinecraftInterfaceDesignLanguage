@@ -1,0 +1,9 @@
+<ui ns:my="my.example.package">
+    <background backgroundColor="#AAAAAAFF">
+        <stackpanel>
+            <button click="{my:button_click}">
+                <label text="OK"/>
+            </button>
+        </stackpanel>
+    </background>
+</ui>

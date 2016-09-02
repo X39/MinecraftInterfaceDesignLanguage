@@ -1,0 +1,122 @@
+[
+    {
+        "name": "base",
+        "attributes": [
+            {
+                "name": "posX",
+                "default": "0",
+                "types": [ "DOUBLE" ],
+                "values": []
+            },
+            {
+                "name": "posY",
+                "default": "0",
+                "types": [ "DOUBLE" ],
+                "values": []
+            },
+            {
+                "name": "width",
+                "default": "AUTO",
+                "types": [ "DOUBLE" ],
+                "values": [ "AUTO" ]
+            },
+            {
+                "name": "height",
+                "default": "AUTO",
+                "types": [ "DOUBLE" ],
+                "values": [ "AUTO" ]
+            },
+            {
+                "name": "verticalAlignment",
+                "default": "AUTO",
+                "types": [],
+                "values": [ "LEFT", "RIGHT", "CENTER", "STRETCH" ]
+            },
+            {
+                "name": "horizontalAlignment",
+                "default": "AUTO",
+                "types": [],
+                "values": [ "LEFT", "RIGHT", "CENTER", "STRETCH" ]
+            },
+            {
+                "name": "margin",
+                "default": "AUTO",
+                "types": [ "THICKNESS" ],
+                "values": []
+            },
+            {
+                "name": "padding",
+                "default": "AUTO",
+                "types": [ "THICKNESS" ],
+                "values": []
+            }
+        ]
+    },
+    {
+        "name": "background",
+        "attributes": [
+            {
+                "name": "backgroundColor",
+                "default": "#00000000",
+                "types": [ "COLOR" ],
+                "values": []
+            }
+        ]
+    },
+    {
+        "name": "stackpanel",
+        "attributes": [
+            {
+                "name": "contentAlign",
+                "default": "vertical",
+                "types": [],
+                "values": [ "vertical", "horizontal" ]
+            }
+        ]
+    },
+    {
+        "name": "button",
+        "attributes": [
+            {
+                "name": "backgroundColor",
+                "default": "#00000000",
+                "types": [ "COLOR" ],
+                "values": [],
+                "description": "Default background color of this control."
+            },
+            {
+                "name": "hoverColor",
+                "default": "NULL",
+                "types": [ "COLOR", "NULL" ],
+                "values": [],
+                "description": "Color, the background should take when user hovers above."
+            },
+            {
+                "name": "clickColor",
+                "default": "NULL",
+                "types": [ "COLOR", "NULL" ],
+                "values": [],
+                "description": "Color, that appears when user clicks the button."
+            }
+        ]
+    },
+    {
+        "name": "label",
+        "attributes": [
+            {
+                "name": "text",
+                "default": "",
+                "types": [ "STRING" ],
+                "values": [],
+                "description": "Text to be displayed on the control."
+            },
+            {
+                "name": "textColor",
+                "default": "#000000FF",
+                "types": [ "COLOR" ],
+                "values": [],
+                "description": "Color this text is rendered in."
+            }
+        ]
+    }
+]
