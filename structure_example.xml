@@ -1,7 +1,7 @@
-<ui ns:my="my.example.package">
+<ui ns:my="my.example.package" ext:x="io.x39.mc.framework.midl.xatt">
     <background backgroundColor="#AAAAAAFF">
         <stackpanel>
-            <button click="{my:button_click}">
+            <button click="{x:static my:button_click}">
                 <label text="OK"/>
             </button>
         </stackpanel>
